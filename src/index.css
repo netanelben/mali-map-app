@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "GothaProReg";
+  src: local("GothaProReg"),
+    url(./assets/fonts/GothaProReg.otf) format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: GothaProReg, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif !important;
+  color: #2e282c !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

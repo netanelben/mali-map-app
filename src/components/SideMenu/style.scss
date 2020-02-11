@@ -1,0 +1,19 @@
+.side-menu {
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    a {
+        display: inline-block;
+        color: #fff;
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    select {
+        max-width: 200px;
+        height: 35px
+    }
+}
