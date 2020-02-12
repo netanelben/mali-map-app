@@ -1,0 +1,17 @@
+.App > nav {
+    background-color: #fff;
+}
+
+.navbar-container > h3 {
+    font-weight: bold;
+    color: #783f04;
+}
+
+.navbar-logo {
+    font-weight: 700;
+}
+
+.navbar-container.container {
+    justify-content: flex-start !important;
+    margin-left: 30px;
+}

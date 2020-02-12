@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Content from './components/Content';
 import SideMenu from './components/SideMenu';
 import Header from './components/Header';
@@ -10,14 +10,16 @@ function App() {
     return (
         <div className="App wrapper">
             <Header/>
-            <Row>
-                <Col sm={2} className="side-menu-wrapper">
-                    <SideMenu/>
-                </Col>
-                <Col sm={10}>
-                    <Content/>
-                </Col>
-            </Row>
+            <Container fluid>
+                <Row>
+                    <Col sm={2} className="side-menu-wrapper">
+                        <SideMenu/>
+                    </Col>
+                    <Col sm={10}>
+                        <Content/>
+                    </Col>
+                </Row>
+            </Container>
             <Footer/>
         </div>
     );

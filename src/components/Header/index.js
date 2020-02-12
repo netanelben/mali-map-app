@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, Image, Container } from "react-bootstrap";
+import './style.scss';
 
 import logo from "../../assets/logos/niger_arms.png";
 import { translations } from '../../translations';

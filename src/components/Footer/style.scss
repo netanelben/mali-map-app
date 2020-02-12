@@ -1,25 +1,55 @@
 .footer {
+    text-align: center;
+    background-color: #fff;
+    border-top: 10px solid #783f04;
+
+    .container {
+        padding: 0;
+        margin: 5px;
+    }
+
     .sponsor-logos {
-        padding: 20px 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
 
         .link-image {
             background-repeat: no-repeat;
             background-size: contain;
             background-position: center;
-            width: 250px;
-            height: 250px;
-        }
-
-        .caotofarms {
-            background-image: url('./assets/coat.png');
-        }
-
-        .dcaf {
-            background-image: url('./assets/dcaf.jpeg');
+            width: 200px;
+            height: 100px;
         }
 
         .geocenter {
-            background-image: url('./assets/geoa.png');
+            background-image: url('./assets/geoalogo.jpg');
         }
+    }
+
+    .sponsor-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .sponsor-section > h2 {
+        margin-bottom: 1em;
+    }
+
+    .copyright-text {
+        margin-bottom: 0;
+        padding: 20px;
+    }
+    .faq-section .card {
+        border: 1px solid rgba(0, 0, 0, 0.125);
+    }
+    .faq-header {
+        display: flex;
+        background-color: inherit !important;
+        border: 0;
+        border-bottom: 0px !important;
+    }
+    .faq-description {
+        display: flex;
+        padding-left: 32px !important;
+        text-align: justify;
     }
 }
