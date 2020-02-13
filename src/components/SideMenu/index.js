@@ -10,7 +10,8 @@ const SELECT_OPTIONS = communes.map((c) => c.Commune).filter(onlyUnique);
 
 const changeHandler = (event) => {
     const communeName = event.target.value;
-    const url = `https://res.cloudinary.com/dfoj36sbh/raw/upload/v1581540244/niger_communes/report_${communeName}_2020-02-11_claru5.html`;
+    const prefix = 'https://niger-commune.s3.eu-central-1.amazonaws.com/report_';
+    const url = `${prefix}${communeName}_2020-02-11.html`;
 
     window.open(url, '_blank');
 };
