@@ -12,17 +12,18 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
+        margin: 0 20px;
 
         .link-image {
             background-repeat: no-repeat;
             background-size: contain;
             background-position: center;
-            width: 200px;
-            height: 100px;
+            width: 400px;
+            height: 150px;
         }
 
         .geocenter {
-            background-image: url('./assets/geoalogo.jpg');
+            background-image: url('./assets/logo_combined.png');
         }
     }
 
