@@ -38,7 +38,10 @@
     top: 80px;
 }
 
-.ol-unselectable.ol-control.layer-switcher.shown {
-    max-width: 300px !important;
-    max-height: 190px !important;
+.GraphicsPage {
+    iframe {
+        width: 100%;
+        height: 100vh;
+        border: 0;
+    }
 }

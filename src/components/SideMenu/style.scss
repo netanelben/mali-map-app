@@ -8,8 +8,13 @@
     flex-direction: column;
     justify-content: flex-start;
 
-    a {
+    a,
+    button {
+        background-color: transparent;
+        border: 0;
+        text-align: left;
         display: inline-block;
+        padding: 0;
         color: #fff;
         font-size: 16px;
         margin-bottom: 12px;

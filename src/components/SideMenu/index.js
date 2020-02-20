@@ -18,14 +18,11 @@ const changeHandler = (event) => {
     window.open(url, '_blank');
 };
 
-const SideMenu = () => (
+const SideMenu = ({ setshowMap }) => (
     <nav className="side-menu">
         <a href="/">Carte</a>
-        <a href="/graphiques.html" target="_blank">Graphiques</a>
-        {/* <select onChange={changeHandler}>
-            <option>Sélectionnez une commune</option>
-            {SELECT_OPTIONS.map((opt) => (<option>{opt}</option>))}
-        </select> */}
+        <button onClick={() => setshowMap(false)}>Graphiques</button>
+
         <Autocomplete
             className="select-commune"
             options={SELECT_OPTIONS}
