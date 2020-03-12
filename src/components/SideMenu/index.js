@@ -11,9 +11,9 @@ function onlyUnique(value, index, self) {
 const SELECT_OPTIONS = communes.map((c) => c.Commune).filter(onlyUnique);
 
 const changeHandler = (event) => {
-    const communeName = event.target.innerText;
-    const prefix = 'https://niger-commune.s3.eu-central-1.amazonaws.com/report_';
-    const url = `${prefix}${communeName}_2020-02-11.html`;
+    const communeName = event.target.innerText.toUpperCase();
+    const prefix = 'https://mali-commune.s3.eu-central-1.amazonaws.com/report_';
+    const url = `${prefix}${communeName}.html`;
 
     window.open(url, '_blank');
 };
