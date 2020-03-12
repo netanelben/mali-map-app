@@ -8,7 +8,7 @@ function onlyUnique(value, index, self) {
     return self.indexOf(value) === index;
 }
 
-const SELECT_OPTIONS = communes.map((c) => c.Commune).filter(onlyUnique);
+const SELECT_OPTIONS = communes.map((c) => c.commune).filter(onlyUnique);
 
 const changeHandler = (event) => {
     const communeName = event.target.innerText.toUpperCase();

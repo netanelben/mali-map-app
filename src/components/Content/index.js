@@ -7,7 +7,7 @@ function Content({ showMap }) {
     return (
         <div className="content">
             {showMap ? <div id="map">
-                <div id="popup" class="ol-popup">
+                <div id="popup" className="ol-popup">
                     <a href="#" id="popup-closer" class="ol-popup-closer"/>
                     <div id="popup-content"></div>
                 </div>
